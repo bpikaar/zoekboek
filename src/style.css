@@ -11,7 +11,17 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
+  overscroll-behavior: none;
   background: #10131a;
+}
+
+/* iOS Safari's chrome (address bar) resizes the viewport as it shows/hides;
+   100dvh tracks that live, where plain % heights can leave a stale gap. */
+@supports (height: 100dvh) {
+  html,
+  body {
+    height: 100dvh;
+  }
 }
 
 #app {
@@ -24,6 +34,10 @@ body {
   overflow: hidden;
   cursor: grab;
   touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .viewport.is-dragging {
@@ -176,10 +190,13 @@ body {
 
 .repeat-prompt {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: max(1rem, env(safe-area-inset-top));
+  right: max(1rem, env(safe-area-inset-right));
   z-index: 2;
-  padding: 0.6rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px; /* Apple HIG minimum tap target */
+  padding: 0.6rem 1.1rem;
   border: none;
   border-radius: 999px;
   background: rgb(0 0 0 / 45%);
@@ -187,6 +204,7 @@ body {
   font: 600 0.95rem system-ui, sans-serif;
   text-shadow: 0 1px 2px rgb(0 0 0 / 40%);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .feedback-badge {

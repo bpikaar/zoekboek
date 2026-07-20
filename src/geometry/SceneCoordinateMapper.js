@@ -37,4 +37,13 @@ export class SceneCoordinateMapper {
       y: (viewportY / viewportRect.height) * 100,
     };
   }
+
+  /** Physical pixels per percentage point, per axis — a scene's width and
+   *  height map to different pixel counts, so this can't be a single number. */
+  getPixelScale() {
+    const viewportRect = this.#viewport.getBoundingClientRect();
+    const sceneWidth = viewportRect.height * this.#sceneAspectRatio;
+
+    return { x: sceneWidth / 100, y: viewportRect.height / 100 };
+  }
 }

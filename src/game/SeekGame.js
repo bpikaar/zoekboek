@@ -5,6 +5,9 @@ import { FeedbackBadge } from './FeedbackBadge.js';
 const CELEBRATION_MS = 1200;
 const HINT_INTERVAL_MS = 3000;
 const SKIP_AFTER_LAST_HINT_MS = 10000;
+// Forgives an imprecise tap near a polygon's edge — a finger is a much
+// blunter pointer than a mouse, and this scene packs in ~100 small objects.
+const TAP_TOLERANCE_PX = 10;
 
 /**
  * Drives the actual seek-and-find game: asks (out loud) for a random
@@ -66,7 +69,8 @@ export class SeekGame {
     if (!this.#currentTarget || this.#locked) return;
 
     const { sceneIndex, x, y } = this.#gallery.coordinateMapper.fromPointerEvent(event);
-    const hit = this.#hitTester.test(sceneIndex, x, y);
+    const scale = this.#gallery.coordinateMapper.getPixelScale();
+    const hit = this.#hitTester.test(sceneIndex, x, y, { tolerancePx: TAP_TOLERANCE_PX, scale });
     if (!hit) return;
 
     const overlay = this.#gallery.strip.getOverlay(sceneIndex);
