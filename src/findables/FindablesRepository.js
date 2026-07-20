@@ -1,4 +1,4 @@
-const DEFAULT_URL = '/findables.json';
+const DEFAULT_URL = `${import.meta.env.BASE_URL}findables.json`;
 
 /**
  * Holds the findable objects for every scene: `{ id, label, clue, polygon }`
