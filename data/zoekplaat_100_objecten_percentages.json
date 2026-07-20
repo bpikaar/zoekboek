@@ -1,0 +1,4017 @@
+{
+    "metadata": {
+        "titel": "Zoekplaat Kinderen - 100 Objecten",
+        "beschrijving": "Uitgebreide lijst met 100 te zoeken objecten in de zoekplaat, inclusief polygooncoördinaten in percentages (0.0 - 100.0%) voor directe conversie naar vw/vh of CSS percentages.",
+        "aantal_objecten": 100,
+        "versie": "2.0",
+        "schaal": {
+            "x_min": 0.0,
+            "x_max": 100.0,
+            "y_min": 0.0,
+            "y_max": 100.0,
+            "eenheid": "percentage (%)"
+        }
+    },
+    "objecten": [
+        {
+            "id": 1,
+            "naam": "Pinguïn op het dak",
+            "omschrijving": "Een verdwaalde pinguïn die via de ladder helemaal op het rechterdak is geklommen.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    71.2,
+                    13.0
+                ],
+                [
+                    73.8,
+                    13.0
+                ],
+                [
+                    74.2,
+                    14.0
+                ],
+                [
+                    74.2,
+                    20.0
+                ],
+                [
+                    73.8,
+                    21.0
+                ],
+                [
+                    71.2,
+                    21.0
+                ],
+                [
+                    70.8,
+                    20.0
+                ],
+                [
+                    70.8,
+                    14.0
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "naam": "Ekster met kers",
+            "omschrijving": "Een grote zwart-witte vogel op het dak die een rode kers in zijn snavel heeft.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    15.8,
+                    13.8
+                ],
+                [
+                    19.2,
+                    13.8
+                ],
+                [
+                    19.7,
+                    14.3
+                ],
+                [
+                    19.7,
+                    17.7
+                ],
+                [
+                    19.2,
+                    18.2
+                ],
+                [
+                    15.8,
+                    18.2
+                ],
+                [
+                    15.3,
+                    17.7
+                ],
+                [
+                    15.3,
+                    14.3
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "naam": "Spinnenweb op zolder",
+            "omschrijving": "Een groot spinnenweb in de nok van de zolder, vlak onder de houten balken.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    35.0,
+                    9.5
+                ],
+                [
+                    38.0,
+                    9.5
+                ],
+                [
+                    38.5,
+                    10.0
+                ],
+                [
+                    38.5,
+                    13.0
+                ],
+                [
+                    38.0,
+                    13.5
+                ],
+                [
+                    35.0,
+                    13.5
+                ],
+                [
+                    34.5,
+                    13.0
+                ],
+                [
+                    34.5,
+                    10.0
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "naam": "Koffer op de zolderkast",
+            "omschrijving": "Een bruine reiskoffer die bovenop een hoge kast op de zolder ligt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    37.0,
+                    12.8
+                ],
+                [
+                    40.0,
+                    12.8
+                ],
+                [
+                    40.5,
+                    13.1
+                ],
+                [
+                    40.5,
+                    14.9
+                ],
+                [
+                    40.0,
+                    15.2
+                ],
+                [
+                    37.0,
+                    15.2
+                ],
+                [
+                    36.5,
+                    14.9
+                ],
+                [
+                    36.5,
+                    13.1
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "naam": "TV-antenne op het dak",
+            "omschrijving": "De metalen televisie-antenne die bovenop het pannendak van het huis staat.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    54.6,
+                    8.0
+                ],
+                [
+                    58.4,
+                    8.0
+                ],
+                [
+                    59.0,
+                    8.7
+                ],
+                [
+                    59.0,
+                    13.3
+                ],
+                [
+                    58.4,
+                    14.0
+                ],
+                [
+                    54.6,
+                    14.0
+                ],
+                [
+                    54.0,
+                    13.3
+                ],
+                [
+                    54.0,
+                    8.7
+                ]
+            ]
+        },
+        {
+            "id": 6,
+            "naam": "Rode schoorsteen rechts",
+            "omschrijving": "De gemetselde rode schoorsteen op de rechterkant van het dak.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    58.2,
+                    12.8
+                ],
+                [
+                    60.8,
+                    12.8
+                ],
+                [
+                    61.2,
+                    13.2
+                ],
+                [
+                    61.2,
+                    15.8
+                ],
+                [
+                    60.8,
+                    16.2
+                ],
+                [
+                    58.2,
+                    16.2
+                ],
+                [
+                    57.8,
+                    15.8
+                ],
+                [
+                    57.8,
+                    13.2
+                ]
+            ]
+        },
+        {
+            "id": 7,
+            "naam": "Rode schoorsteen links",
+            "omschrijving": "De grote bakstenen schoorsteen op de linkerkant van het pannendak.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    29.5,
+                    7.0
+                ],
+                [
+                    32.5,
+                    7.0
+                ],
+                [
+                    33.0,
+                    7.6
+                ],
+                [
+                    33.0,
+                    11.4
+                ],
+                [
+                    32.5,
+                    12.0
+                ],
+                [
+                    29.5,
+                    12.0
+                ],
+                [
+                    29.0,
+                    11.4
+                ],
+                [
+                    29.0,
+                    7.6
+                ]
+            ]
+        },
+        {
+            "id": 8,
+            "naam": "Duif op de dakrand",
+            "omschrijving": "Een kleine duif die rustig bovenop de nok van het dak zit.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    40.1,
+                    4.3
+                ],
+                [
+                    41.9,
+                    4.3
+                ],
+                [
+                    42.2,
+                    4.6
+                ],
+                [
+                    42.2,
+                    6.4
+                ],
+                [
+                    41.9,
+                    6.7
+                ],
+                [
+                    40.1,
+                    6.7
+                ],
+                [
+                    39.8,
+                    6.4
+                ],
+                [
+                    39.8,
+                    4.6
+                ]
+            ]
+        },
+        {
+            "id": 9,
+            "naam": "Gitaar in de slaapkamer",
+            "omschrijving": "Een akoestische gitaar die tegen de muur staat op de bovenste verdieping links.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    22.6,
+                    24.8
+                ],
+                [
+                    24.4,
+                    24.8
+                ],
+                [
+                    24.7,
+                    25.4
+                ],
+                [
+                    24.7,
+                    29.6
+                ],
+                [
+                    24.4,
+                    30.2
+                ],
+                [
+                    22.6,
+                    30.2
+                ],
+                [
+                    22.3,
+                    29.6
+                ],
+                [
+                    22.3,
+                    25.4
+                ]
+            ]
+        },
+        {
+            "id": 10,
+            "naam": "Gele koffer op zolder",
+            "omschrijving": "Een kleine gele koffer of doos die op zolder in een vakje ligt.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    29.8,
+                    13.3
+                ],
+                [
+                    32.2,
+                    13.3
+                ],
+                [
+                    32.5,
+                    13.6
+                ],
+                [
+                    32.5,
+                    15.4
+                ],
+                [
+                    32.2,
+                    15.7
+                ],
+                [
+                    29.8,
+                    15.7
+                ],
+                [
+                    29.5,
+                    15.4
+                ],
+                [
+                    29.5,
+                    13.6
+                ]
+            ]
+        },
+        {
+            "id": 11,
+            "naam": "Papegaai in de kooi",
+            "omschrijving": "Een grote rode papegaai in een hoge kooi op het balkon aan de rechterkant.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    76.3,
+                    20.0
+                ],
+                [
+                    78.7,
+                    20.0
+                ],
+                [
+                    79.0,
+                    21.1
+                ],
+                [
+                    79.0,
+                    27.9
+                ],
+                [
+                    78.7,
+                    29.0
+                ],
+                [
+                    76.3,
+                    29.0
+                ],
+                [
+                    76.0,
+                    27.9
+                ],
+                [
+                    76.0,
+                    21.1
+                ]
+            ]
+        },
+        {
+            "id": 12,
+            "naam": "Meisje op de vloer",
+            "omschrijving": "Een meisje dat op de grond in haar slaapkamer een boek zit te lezen.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    32.3,
+                    25.0
+                ],
+                [
+                    34.7,
+                    25.0
+                ],
+                [
+                    35.0,
+                    25.7
+                ],
+                [
+                    35.0,
+                    30.3
+                ],
+                [
+                    34.7,
+                    31.0
+                ],
+                [
+                    32.3,
+                    31.0
+                ],
+                [
+                    32.0,
+                    30.3
+                ],
+                [
+                    32.0,
+                    25.7
+                ]
+            ]
+        },
+        {
+            "id": 13,
+            "naam": "Man op de gele bank",
+            "omschrijving": "Een man met een baard die lekker op de gele bank ligt te lezen.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    41.2,
+                    27.0
+                ],
+                [
+                    45.8,
+                    27.0
+                ],
+                [
+                    46.5,
+                    27.5
+                ],
+                [
+                    46.5,
+                    30.5
+                ],
+                [
+                    45.8,
+                    31.0
+                ],
+                [
+                    41.2,
+                    31.0
+                ],
+                [
+                    40.5,
+                    30.5
+                ],
+                [
+                    40.5,
+                    27.5
+                ]
+            ]
+        },
+        {
+            "id": 14,
+            "naam": "Schilderij van een hert",
+            "omschrijving": "Een schilderij aan de muur met de afbeelding van een hert met een gewei.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    40.2,
+                    36.5
+                ],
+                [
+                    42.8,
+                    36.5
+                ],
+                [
+                    43.2,
+                    37.0
+                ],
+                [
+                    43.2,
+                    40.0
+                ],
+                [
+                    42.8,
+                    40.5
+                ],
+                [
+                    40.2,
+                    40.5
+                ],
+                [
+                    39.8,
+                    40.0
+                ],
+                [
+                    39.8,
+                    37.0
+                ]
+            ]
+        },
+        {
+            "id": 15,
+            "naam": "Groene jurk aan de kledingrek",
+            "omschrijving": "Een groene jurk met patronen die aan een kledingrek hangt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    46.2,
+                    35.8
+                ],
+                [
+                    48.8,
+                    35.8
+                ],
+                [
+                    49.2,
+                    36.7
+                ],
+                [
+                    49.2,
+                    42.3
+                ],
+                [
+                    48.8,
+                    43.2
+                ],
+                [
+                    46.2,
+                    43.2
+                ],
+                [
+                    45.8,
+                    42.3
+                ],
+                [
+                    45.8,
+                    36.7
+                ]
+            ]
+        },
+        {
+            "id": 16,
+            "naam": "Krab in het bad",
+            "omschrijving": "Een rode krab die stiekem in het ligbad in de badkamer zit.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    33.3,
+                    57.5
+                ],
+                [
+                    35.7,
+                    57.5
+                ],
+                [
+                    36.0,
+                    58.0
+                ],
+                [
+                    36.0,
+                    61.0
+                ],
+                [
+                    35.7,
+                    61.5
+                ],
+                [
+                    33.3,
+                    61.5
+                ],
+                [
+                    33.0,
+                    61.0
+                ],
+                [
+                    33.0,
+                    58.0
+                ]
+            ]
+        },
+        {
+            "id": 17,
+            "naam": "Rood kruis op medicijnkastje",
+            "omschrijving": "Het rode kruis op het witte kastje in de badkamer.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    35.1,
+                    36.3
+                ],
+                [
+                    36.9,
+                    36.3
+                ],
+                [
+                    37.2,
+                    36.6
+                ],
+                [
+                    37.2,
+                    38.4
+                ],
+                [
+                    36.9,
+                    38.7
+                ],
+                [
+                    35.1,
+                    38.7
+                ],
+                [
+                    34.8,
+                    38.4
+                ],
+                [
+                    34.8,
+                    36.6
+                ]
+            ]
+        },
+        {
+            "id": 18,
+            "naam": "Wasbak met spiegel",
+            "omschrijving": "De wasbak en de spiegel in de kleine slaapkamer op de bovenste verdieping.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    34.8,
+                    24.0
+                ],
+                [
+                    37.2,
+                    24.0
+                ],
+                [
+                    37.5,
+                    24.6
+                ],
+                [
+                    37.5,
+                    28.4
+                ],
+                [
+                    37.2,
+                    29.0
+                ],
+                [
+                    34.8,
+                    29.0
+                ],
+                [
+                    34.5,
+                    28.4
+                ],
+                [
+                    34.5,
+                    24.6
+                ]
+            ]
+        },
+        {
+            "id": 19,
+            "naam": "Televisie in de boekenkast",
+            "omschrijving": "Een kleine televisie die in de houten boekenkast linksboven staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    26.7,
+                    21.8
+                ],
+                [
+                    29.3,
+                    21.8
+                ],
+                [
+                    29.7,
+                    22.2
+                ],
+                [
+                    29.7,
+                    24.8
+                ],
+                [
+                    29.3,
+                    25.2
+                ],
+                [
+                    26.7,
+                    25.2
+                ],
+                [
+                    26.3,
+                    24.8
+                ],
+                [
+                    26.3,
+                    22.2
+                ]
+            ]
+        },
+        {
+            "id": 20,
+            "naam": "Hartjesdekbed op het bed",
+            "omschrijving": "Een bed opgebogen met een wit dekbed vol roze en rode hartjes.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    24.6,
+                    26.5
+                ],
+                [
+                    28.4,
+                    26.5
+                ],
+                [
+                    29.0,
+                    27.0
+                ],
+                [
+                    29.0,
+                    30.0
+                ],
+                [
+                    28.4,
+                    30.5
+                ],
+                [
+                    24.6,
+                    30.5
+                ],
+                [
+                    24.0,
+                    30.0
+                ],
+                [
+                    24.0,
+                    27.0
+                ]
+            ]
+        },
+        {
+            "id": 21,
+            "naam": "Gele parasol op het balkon",
+            "omschrijving": "Een ingeklapte of halfopen gele parasol met strepen op het balkon links.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    12.2,
+                    37.8
+                ],
+                [
+                    16.8,
+                    37.8
+                ],
+                [
+                    17.5,
+                    38.4
+                ],
+                [
+                    17.5,
+                    42.6
+                ],
+                [
+                    16.8,
+                    43.2
+                ],
+                [
+                    12.2,
+                    43.2
+                ],
+                [
+                    11.5,
+                    42.6
+                ],
+                [
+                    11.5,
+                    38.4
+                ]
+            ]
+        },
+        {
+            "id": 22,
+            "naam": "Eekhoorn op het balkon",
+            "omschrijving": "Een nieuwsgierige rode eekhoorn die op de rand van het balkon zit.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    15.5,
+                    43.8
+                ],
+                [
+                    18.1,
+                    43.8
+                ],
+                [
+                    18.5,
+                    44.3
+                ],
+                [
+                    18.5,
+                    47.7
+                ],
+                [
+                    18.1,
+                    48.2
+                ],
+                [
+                    15.5,
+                    48.2
+                ],
+                [
+                    15.1,
+                    47.7
+                ],
+                [
+                    15.1,
+                    44.3
+                ]
+            ]
+        },
+        {
+            "id": 23,
+            "naam": "Vogelhuisje aan de boom",
+            "omschrijving": "Een houten vogelhuisje dat aan de stam van de grote boom links hangt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    1.0,
+                    50.5
+                ],
+                [
+                    3.4,
+                    50.5
+                ],
+                [
+                    3.7,
+                    51.0
+                ],
+                [
+                    3.7,
+                    54.0
+                ],
+                [
+                    3.4,
+                    54.5
+                ],
+                [
+                    1.0,
+                    54.5
+                ],
+                [
+                    0.7,
+                    54.0
+                ],
+                [
+                    0.7,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "id": 24,
+            "naam": "Rode kers op de balkontafel",
+            "omschrijving": "Een schaal vol rode kersen die op de tafel in de keuken staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    57.0,
+                    26.3
+                ],
+                [
+                    60.0,
+                    26.3
+                ],
+                [
+                    60.5,
+                    26.6
+                ],
+                [
+                    60.5,
+                    28.4
+                ],
+                [
+                    60.0,
+                    28.7
+                ],
+                [
+                    57.0,
+                    28.7
+                ],
+                [
+                    56.5,
+                    28.4
+                ],
+                [
+                    56.5,
+                    26.6
+                ]
+            ]
+        },
+        {
+            "id": 25,
+            "naam": "Groene plantenbak op balkon links",
+            "omschrijving": "De bloembak vol bloemen en planten aan de reling van het linker balkon.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    6.7,
+                    45.3
+                ],
+                [
+                    12.3,
+                    45.3
+                ],
+                [
+                    13.2,
+                    45.7
+                ],
+                [
+                    13.2,
+                    48.3
+                ],
+                [
+                    12.3,
+                    48.7
+                ],
+                [
+                    6.7,
+                    48.7
+                ],
+                [
+                    5.8,
+                    48.3
+                ],
+                [
+                    5.8,
+                    45.7
+                ]
+            ]
+        },
+        {
+            "id": 26,
+            "naam": "Televisie in de woonkamer",
+            "omschrijving": "De televisie die in de woonkamer op de eerste verdieping aan staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    28.2,
+                    37.8
+                ],
+                [
+                    30.8,
+                    37.8
+                ],
+                [
+                    31.2,
+                    38.2
+                ],
+                [
+                    31.2,
+                    40.8
+                ],
+                [
+                    30.8,
+                    41.2
+                ],
+                [
+                    28.2,
+                    41.2
+                ],
+                [
+                    27.8,
+                    40.8
+                ],
+                [
+                    27.8,
+                    38.2
+                ]
+            ]
+        },
+        {
+            "id": 27,
+            "naam": "Witte fauteuil in woonkamer",
+            "omschrijving": "Een comfortabele witte leunstoel in de woonkamer links.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    27.0,
+                    44.5
+                ],
+                [
+                    30.0,
+                    44.5
+                ],
+                [
+                    30.5,
+                    45.1
+                ],
+                [
+                    30.5,
+                    48.9
+                ],
+                [
+                    30.0,
+                    49.5
+                ],
+                [
+                    27.0,
+                    49.5
+                ],
+                [
+                    26.5,
+                    48.9
+                ],
+                [
+                    26.5,
+                    45.1
+                ]
+            ]
+        },
+        {
+            "id": 28,
+            "naam": "Gele kast in woonkamer",
+            "omschrijving": "Een grote gele wandkast in de woonkamer links.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    22.2,
+                    35.5
+                ],
+                [
+                    26.8,
+                    35.5
+                ],
+                [
+                    27.5,
+                    36.5
+                ],
+                [
+                    27.5,
+                    42.5
+                ],
+                [
+                    26.8,
+                    43.5
+                ],
+                [
+                    22.2,
+                    43.5
+                ],
+                [
+                    21.5,
+                    42.5
+                ],
+                [
+                    21.5,
+                    36.5
+                ]
+            ]
+        },
+        {
+            "id": 29,
+            "naam": "Klompjes of schoenen in gang",
+            "omschrijving": "Rode en gele schoenen die op de vloer van de slaapkamer liggen.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    46.2,
+                    46.3
+                ],
+                [
+                    48.8,
+                    46.3
+                ],
+                [
+                    49.2,
+                    46.6
+                ],
+                [
+                    49.2,
+                    48.4
+                ],
+                [
+                    48.8,
+                    48.7
+                ],
+                [
+                    46.2,
+                    48.7
+                ],
+                [
+                    45.8,
+                    48.4
+                ],
+                [
+                    45.8,
+                    46.6
+                ]
+            ]
+        },
+        {
+            "id": 30,
+            "naam": "Tafel met rode geblokte doek",
+            "omschrijving": "De eettafel met een rood-wit geblokt tafelkleed in de keuken.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    51.6,
+                    45.8
+                ],
+                [
+                    55.4,
+                    45.8
+                ],
+                [
+                    56.0,
+                    46.3
+                ],
+                [
+                    56.0,
+                    49.7
+                ],
+                [
+                    55.4,
+                    50.2
+                ],
+                [
+                    51.6,
+                    50.2
+                ],
+                [
+                    51.0,
+                    49.7
+                ],
+                [
+                    51.0,
+                    46.3
+                ]
+            ]
+        },
+        {
+            "id": 31,
+            "naam": "Rode bloemen in vaas",
+            "omschrijving": "Een vaas met vrolijke bloemen op het kastje in de woonkamer.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    25.9,
+                    36.8
+                ],
+                [
+                    27.7,
+                    36.8
+                ],
+                [
+                    28.0,
+                    37.2
+                ],
+                [
+                    28.0,
+                    39.8
+                ],
+                [
+                    27.7,
+                    40.2
+                ],
+                [
+                    25.9,
+                    40.2
+                ],
+                [
+                    25.6,
+                    39.8
+                ],
+                [
+                    25.6,
+                    37.2
+                ]
+            ]
+        },
+        {
+            "id": 32,
+            "naam": "Blauwe stoel op overloop",
+            "omschrijving": "Een klein blauw stoeltje dat op de overloop bij de trap staat.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    71.1,
+                    44.8
+                ],
+                [
+                    72.9,
+                    44.8
+                ],
+                [
+                    73.2,
+                    45.2
+                ],
+                [
+                    73.2,
+                    47.8
+                ],
+                [
+                    72.9,
+                    48.2
+                ],
+                [
+                    71.1,
+                    48.2
+                ],
+                [
+                    70.8,
+                    47.8
+                ],
+                [
+                    70.8,
+                    45.2
+                ]
+            ]
+        },
+        {
+            "id": 33,
+            "naam": "Mandje met brood in de keuken",
+            "omschrijving": "Een mandje gevuld met broodjes op de keukentafel.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    53.8,
+                    43.0
+                ],
+                [
+                    56.2,
+                    43.0
+                ],
+                [
+                    56.5,
+                    43.3
+                ],
+                [
+                    56.5,
+                    45.7
+                ],
+                [
+                    56.2,
+                    46.0
+                ],
+                [
+                    53.8,
+                    46.0
+                ],
+                [
+                    53.5,
+                    45.7
+                ],
+                [
+                    53.5,
+                    43.3
+                ]
+            ]
+        },
+        {
+            "id": 34,
+            "naam": "Wasmachine of fornuis",
+            "omschrijving": "Het witte fornuis of huishoudapparaat in de keuken middenin het huis.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    57.2,
+                    41.3
+                ],
+                [
+                    59.8,
+                    41.3
+                ],
+                [
+                    60.2,
+                    41.8
+                ],
+                [
+                    60.2,
+                    45.2
+                ],
+                [
+                    59.8,
+                    45.7
+                ],
+                [
+                    57.2,
+                    45.7
+                ],
+                [
+                    56.8,
+                    45.2
+                ],
+                [
+                    56.8,
+                    41.8
+                ]
+            ]
+        },
+        {
+            "id": 35,
+            "naam": "Klok aan de muur links",
+            "omschrijving": "Een ronde gele wandklok die in de woonkamer aan de muur hangt.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    20.7,
+                    34.0
+                ],
+                [
+                    22.3,
+                    34.0
+                ],
+                [
+                    22.5,
+                    34.2
+                ],
+                [
+                    22.5,
+                    35.8
+                ],
+                [
+                    22.3,
+                    36.0
+                ],
+                [
+                    20.7,
+                    36.0
+                ],
+                [
+                    20.5,
+                    35.8
+                ],
+                [
+                    20.5,
+                    34.2
+                ]
+            ]
+        },
+        {
+            "id": 36,
+            "naam": "Gordijn met patronen",
+            "omschrijving": "Het blauw-witte gordijn dat in de slaapkamer hangt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    32.3,
+                    52.8
+                ],
+                [
+                    34.7,
+                    52.8
+                ],
+                [
+                    35.0,
+                    53.6
+                ],
+                [
+                    35.0,
+                    58.4
+                ],
+                [
+                    34.7,
+                    59.2
+                ],
+                [
+                    32.3,
+                    59.2
+                ],
+                [
+                    32.0,
+                    58.4
+                ],
+                [
+                    32.0,
+                    53.6
+                ]
+            ]
+        },
+        {
+            "id": 37,
+            "naam": "Lamp boven de eettafel",
+            "omschrijving": "De hanglamp die boven de eettafel in de keuken hangt.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    57.9,
+                    17.8
+                ],
+                [
+                    59.7,
+                    17.8
+                ],
+                [
+                    60.0,
+                    18.2
+                ],
+                [
+                    60.0,
+                    20.8
+                ],
+                [
+                    59.7,
+                    21.2
+                ],
+                [
+                    57.9,
+                    21.2
+                ],
+                [
+                    57.6,
+                    20.8
+                ],
+                [
+                    57.6,
+                    18.2
+                ]
+            ]
+        },
+        {
+            "id": 38,
+            "naam": "Bordjes aan de keukenmuur",
+            "omschrijving": "Kleine bordjes of keukengerei hangend aan de muur in de keuken.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    51.2,
+                    39.3
+                ],
+                [
+                    53.8,
+                    39.3
+                ],
+                [
+                    54.2,
+                    39.7
+                ],
+                [
+                    54.2,
+                    42.3
+                ],
+                [
+                    53.8,
+                    42.7
+                ],
+                [
+                    51.2,
+                    42.7
+                ],
+                [
+                    50.8,
+                    42.3
+                ],
+                [
+                    50.8,
+                    39.7
+                ]
+            ]
+        },
+        {
+            "id": 39,
+            "naam": "Zwarte kat op de trap",
+            "omschrijving": "Een zwart-witte kat die vanaf de buitentrap naar beneden kijkt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    77.5,
+                    43.3
+                ],
+                [
+                    80.5,
+                    43.3
+                ],
+                [
+                    81.0,
+                    43.8
+                ],
+                [
+                    81.0,
+                    47.2
+                ],
+                [
+                    80.5,
+                    47.7
+                ],
+                [
+                    77.5,
+                    47.7
+                ],
+                [
+                    77.0,
+                    47.2
+                ],
+                [
+                    77.0,
+                    43.8
+                ]
+            ]
+        },
+        {
+            "id": 40,
+            "naam": "Rode kersen in kom op trap",
+            "omschrijving": "Een kommetje kersen op een klein tafeltje op de overloop bij de trap.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    67.8,
+                    44.3
+                ],
+                [
+                    70.2,
+                    44.3
+                ],
+                [
+                    70.5,
+                    44.6
+                ],
+                [
+                    70.5,
+                    46.4
+                ],
+                [
+                    70.2,
+                    46.7
+                ],
+                [
+                    67.8,
+                    46.7
+                ],
+                [
+                    67.5,
+                    46.4
+                ],
+                [
+                    67.5,
+                    44.6
+                ]
+            ]
+        },
+        {
+            "id": 41,
+            "naam": "Slapende gele kat",
+            "omschrijving": "Een gele poes die heerlijk ligt te slapen op een vloerkleedje.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    23.5,
+                    62.8
+                ],
+                [
+                    26.5,
+                    62.8
+                ],
+                [
+                    27.0,
+                    63.2
+                ],
+                [
+                    27.0,
+                    65.8
+                ],
+                [
+                    26.5,
+                    66.2
+                ],
+                [
+                    23.5,
+                    66.2
+                ],
+                [
+                    23.0,
+                    65.8
+                ],
+                [
+                    23.0,
+                    63.2
+                ]
+            ]
+        },
+        {
+            "id": 42,
+            "naam": "Baby mobiel boven ledikant",
+            "omschrijving": "Een vrolijke speelgoedmobiel die boven het babybedje hangt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    23.0,
+                    52.8
+                ],
+                [
+                    26.0,
+                    52.8
+                ],
+                [
+                    26.5,
+                    53.2
+                ],
+                [
+                    26.5,
+                    55.8
+                ],
+                [
+                    26.0,
+                    56.2
+                ],
+                [
+                    23.0,
+                    56.2
+                ],
+                [
+                    22.5,
+                    55.8
+                ],
+                [
+                    22.5,
+                    53.2
+                ]
+            ]
+        },
+        {
+            "id": 43,
+            "naam": "Rode driewieler",
+            "omschrijving": "Een klein rood kinderfietsje of driewieler in de kinderkamer.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    27.7,
+                    64.3
+                ],
+                [
+                    30.3,
+                    64.3
+                ],
+                [
+                    30.7,
+                    64.7
+                ],
+                [
+                    30.7,
+                    67.3
+                ],
+                [
+                    30.3,
+                    67.7
+                ],
+                [
+                    27.7,
+                    67.7
+                ],
+                [
+                    27.3,
+                    67.3
+                ],
+                [
+                    27.3,
+                    64.7
+                ]
+            ]
+        },
+        {
+            "id": 44,
+            "naam": "Schilder met verfroller",
+            "omschrijving": "Een man met een snor die met een roller de muur aan het schilderen is.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    44.5,
+                    56.8
+                ],
+                [
+                    47.5,
+                    56.8
+                ],
+                [
+                    48.0,
+                    57.8
+                ],
+                [
+                    48.0,
+                    64.2
+                ],
+                [
+                    47.5,
+                    65.2
+                ],
+                [
+                    44.5,
+                    65.2
+                ],
+                [
+                    44.0,
+                    64.2
+                ],
+                [
+                    44.0,
+                    57.8
+                ]
+            ]
+        },
+        {
+            "id": 45,
+            "naam": "Schilder met verfkwast",
+            "omschrijving": "Een man in een gestreept hemd die met een kwast de muur schildert.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    39.2,
+                    57.5
+                ],
+                [
+                    41.8,
+                    57.5
+                ],
+                [
+                    42.2,
+                    58.5
+                ],
+                [
+                    42.2,
+                    64.5
+                ],
+                [
+                    41.8,
+                    65.5
+                ],
+                [
+                    39.2,
+                    65.5
+                ],
+                [
+                    38.8,
+                    64.5
+                ],
+                [
+                    38.8,
+                    58.5
+                ]
+            ]
+        },
+        {
+            "id": 46,
+            "naam": "Verfblik op de grond",
+            "omschrijving": "Een open blik gele verf dat op de vloer van de kamer in verbouwing staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    38.4,
+                    64.8
+                ],
+                [
+                    40.0,
+                    64.8
+                ],
+                [
+                    40.2,
+                    65.1
+                ],
+                [
+                    40.2,
+                    66.9
+                ],
+                [
+                    40.0,
+                    67.2
+                ],
+                [
+                    38.4,
+                    67.2
+                ],
+                [
+                    38.2,
+                    66.9
+                ],
+                [
+                    38.2,
+                    65.1
+                ]
+            ]
+        },
+        {
+            "id": 47,
+            "naam": "Oranje fauteuil in de schuur",
+            "omschrijving": "Een grote oranje stoel die in de rommelkamer of schuur links staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    10.6,
+                    62.0
+                ],
+                [
+                    14.4,
+                    62.0
+                ],
+                [
+                    15.0,
+                    62.6
+                ],
+                [
+                    15.0,
+                    66.4
+                ],
+                [
+                    14.4,
+                    67.0
+                ],
+                [
+                    10.6,
+                    67.0
+                ],
+                [
+                    10.0,
+                    66.4
+                ],
+                [
+                    10.0,
+                    62.6
+                ]
+            ]
+        },
+        {
+            "id": 48,
+            "naam": "Tuinslang aan de muur",
+            "omschrijving": "De gele tuinslang die netjes opgerold aan de muur links buiten hangt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    3.5,
+                    68.8
+                ],
+                [
+                    6.5,
+                    68.8
+                ],
+                [
+                    7.0,
+                    69.4
+                ],
+                [
+                    7.0,
+                    73.6
+                ],
+                [
+                    6.5,
+                    74.2
+                ],
+                [
+                    3.5,
+                    74.2
+                ],
+                [
+                    3.0,
+                    73.6
+                ],
+                [
+                    3.0,
+                    69.4
+                ]
+            ]
+        },
+        {
+            "id": 49,
+            "naam": "Houten ladder in de schuur",
+            "omschrijving": "Een houten keukentrapje dat midden in de linker opslagruimte staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    13.3,
+                    54.3
+                ],
+                [
+                    15.7,
+                    54.3
+                ],
+                [
+                    16.0,
+                    55.1
+                ],
+                [
+                    16.0,
+                    59.9
+                ],
+                [
+                    15.7,
+                    60.7
+                ],
+                [
+                    13.3,
+                    60.7
+                ],
+                [
+                    13.0,
+                    59.9
+                ],
+                [
+                    13.0,
+                    55.1
+                ]
+            ]
+        },
+        {
+            "id": 50,
+            "naam": "Zaag aan de wand",
+            "omschrijving": "Een handzaag die aan het gereedschapsbord in de schuur hangt.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    17.7,
+                    52.5
+                ],
+                [
+                    19.3,
+                    52.5
+                ],
+                [
+                    19.5,
+                    53.0
+                ],
+                [
+                    19.5,
+                    56.0
+                ],
+                [
+                    19.3,
+                    56.5
+                ],
+                [
+                    17.7,
+                    56.5
+                ],
+                [
+                    17.5,
+                    56.0
+                ],
+                [
+                    17.5,
+                    53.0
+                ]
+            ]
+        },
+        {
+            "id": 51,
+            "naam": "Brood op de keukentafel onder",
+            "omschrijving": "Een heel brood dat op de tafel in de onderste keuken/eetkamer ligt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    51.2,
+                    60.3
+                ],
+                [
+                    53.8,
+                    60.3
+                ],
+                [
+                    54.2,
+                    60.6
+                ],
+                [
+                    54.2,
+                    62.4
+                ],
+                [
+                    53.8,
+                    62.7
+                ],
+                [
+                    51.2,
+                    62.7
+                ],
+                [
+                    50.8,
+                    62.4
+                ],
+                [
+                    50.8,
+                    60.6
+                ]
+            ]
+        },
+        {
+            "id": 52,
+            "naam": "Roze badjas of handdoek",
+            "omschrijving": "Een roze kledingstuk dat over de rand in de kinderkamer hangt.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    33.6,
+                    58.8
+                ],
+                [
+                    35.4,
+                    58.8
+                ],
+                [
+                    35.7,
+                    59.2
+                ],
+                [
+                    35.7,
+                    61.8
+                ],
+                [
+                    35.4,
+                    62.2
+                ],
+                [
+                    33.6,
+                    62.2
+                ],
+                [
+                    33.3,
+                    61.8
+                ],
+                [
+                    33.3,
+                    59.2
+                ]
+            ]
+        },
+        {
+            "id": 53,
+            "naam": "Gele koffer op kastje",
+            "omschrijving": "Een kleine gele koffer bovenop een kastje in de kinderkamer.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    24.9,
+                    61.5
+                ],
+                [
+                    26.7,
+                    61.5
+                ],
+                [
+                    27.0,
+                    61.7
+                ],
+                [
+                    27.0,
+                    63.3
+                ],
+                [
+                    26.7,
+                    63.5
+                ],
+                [
+                    24.9,
+                    63.5
+                ],
+                [
+                    24.6,
+                    63.3
+                ],
+                [
+                    24.6,
+                    61.7
+                ]
+            ]
+        },
+        {
+            "id": 54,
+            "naam": "Konijn-knuffel in bed",
+            "omschrijving": "Een knuffelkonijn dat in het ledikantje in de kinderkamer ligt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    28.6,
+                    59.5
+                ],
+                [
+                    30.4,
+                    59.5
+                ],
+                [
+                    30.7,
+                    59.8
+                ],
+                [
+                    30.7,
+                    62.2
+                ],
+                [
+                    30.4,
+                    62.5
+                ],
+                [
+                    28.6,
+                    62.5
+                ],
+                [
+                    28.3,
+                    62.2
+                ],
+                [
+                    28.3,
+                    59.8
+                ]
+            ]
+        },
+        {
+            "id": 55,
+            "naam": "Houten krukje in de keuken",
+            "omschrijving": "Een klein houten krukje in de keuken op de begane grond.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    55.6,
+                    63.8
+                ],
+                [
+                    57.4,
+                    63.8
+                ],
+                [
+                    57.7,
+                    64.2
+                ],
+                [
+                    57.7,
+                    66.8
+                ],
+                [
+                    57.4,
+                    67.2
+                ],
+                [
+                    55.6,
+                    67.2
+                ],
+                [
+                    55.3,
+                    66.8
+                ],
+                [
+                    55.3,
+                    64.2
+                ]
+            ]
+        },
+        {
+            "id": 56,
+            "naam": "Potten en potjes in voorraadkast",
+            "omschrijving": "Rijen met glazen potten op de planken in de voorraadruimte rechts.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    60.2,
+                    53.8
+                ],
+                [
+                    62.8,
+                    53.8
+                ],
+                [
+                    63.2,
+                    54.7
+                ],
+                [
+                    63.2,
+                    60.3
+                ],
+                [
+                    62.8,
+                    61.2
+                ],
+                [
+                    60.2,
+                    61.2
+                ],
+                [
+                    59.8,
+                    60.3
+                ],
+                [
+                    59.8,
+                    54.7
+                ]
+            ]
+        },
+        {
+            "id": 57,
+            "naam": "Deur naar het buitenterras",
+            "omschrijving": "De witte buitendeur op de begane grond onder de trap.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    64.5,
+                    58.5
+                ],
+                [
+                    67.1,
+                    58.5
+                ],
+                [
+                    67.5,
+                    59.5
+                ],
+                [
+                    67.5,
+                    65.5
+                ],
+                [
+                    67.1,
+                    66.5
+                ],
+                [
+                    64.5,
+                    66.5
+                ],
+                [
+                    64.1,
+                    65.5
+                ],
+                [
+                    64.1,
+                    59.5
+                ]
+            ]
+        },
+        {
+            "id": 58,
+            "naam": "Vogelkooi links in schuur",
+            "omschrijving": "Een kooitje of kistje in de linker opslagruimte.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    12.6,
+                    61.8
+                ],
+                [
+                    14.4,
+                    61.8
+                ],
+                [
+                    14.7,
+                    62.1
+                ],
+                [
+                    14.7,
+                    63.9
+                ],
+                [
+                    14.4,
+                    64.2
+                ],
+                [
+                    12.6,
+                    64.2
+                ],
+                [
+                    12.3,
+                    63.9
+                ],
+                [
+                    12.3,
+                    62.1
+                ]
+            ]
+        },
+        {
+            "id": 59,
+            "naam": "Gereedschapsbord",
+            "omschrijving": "Het houten bord aan de muur waar allerlei gereedschappen aan hangen.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    17.2,
+                    53.3
+                ],
+                [
+                    19.8,
+                    53.3
+                ],
+                [
+                    20.2,
+                    53.9
+                ],
+                [
+                    20.2,
+                    58.1
+                ],
+                [
+                    19.8,
+                    58.7
+                ],
+                [
+                    17.2,
+                    58.7
+                ],
+                [
+                    16.8,
+                    58.1
+                ],
+                [
+                    16.8,
+                    53.9
+                ]
+            ]
+        },
+        {
+            "id": 60,
+            "naam": "Kleurrijk vloerkleedje",
+            "omschrijving": "Het kleedje op de vloer waar de gele poes op ligt te slapen.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    23.1,
+                    63.5
+                ],
+                [
+                    26.9,
+                    63.5
+                ],
+                [
+                    27.5,
+                    63.8
+                ],
+                [
+                    27.5,
+                    66.2
+                ],
+                [
+                    26.9,
+                    66.5
+                ],
+                [
+                    23.1,
+                    66.5
+                ],
+                [
+                    22.5,
+                    66.2
+                ],
+                [
+                    22.5,
+                    63.8
+                ]
+            ]
+        },
+        {
+            "id": 61,
+            "naam": "Vrouw die gras maait",
+            "omschrijving": "Een vrouw in een wit pak met rood haar die de grasmaaier duwt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    30.6,
+                    66.3
+                ],
+                [
+                    34.4,
+                    66.3
+                ],
+                [
+                    35.0,
+                    67.4
+                ],
+                [
+                    35.0,
+                    74.6
+                ],
+                [
+                    34.4,
+                    75.7
+                ],
+                [
+                    30.6,
+                    75.7
+                ],
+                [
+                    30.0,
+                    74.6
+                ],
+                [
+                    30.0,
+                    67.4
+                ]
+            ]
+        },
+        {
+            "id": 62,
+            "naam": "Grasmaaier",
+            "omschrijving": "De groene duwgrasmaaier op het gazon voor het huis.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    28.2,
+                    72.5
+                ],
+                [
+                    30.8,
+                    72.5
+                ],
+                [
+                    31.2,
+                    73.0
+                ],
+                [
+                    31.2,
+                    76.0
+                ],
+                [
+                    30.8,
+                    76.5
+                ],
+                [
+                    28.2,
+                    76.5
+                ],
+                [
+                    27.8,
+                    76.0
+                ],
+                [
+                    27.8,
+                    73.0
+                ]
+            ]
+        },
+        {
+            "id": 63,
+            "naam": "Kleurrijke strandbal in tuin",
+            "omschrijving": "Een rood-geel-blauwe bal die midden in de voortuin in het gras ligt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    48.3,
+                    74.3
+                ],
+                [
+                    50.1,
+                    74.3
+                ],
+                [
+                    50.4,
+                    74.6
+                ],
+                [
+                    50.4,
+                    76.4
+                ],
+                [
+                    50.1,
+                    76.7
+                ],
+                [
+                    48.3,
+                    76.7
+                ],
+                [
+                    48.0,
+                    76.4
+                ],
+                [
+                    48.0,
+                    74.6
+                ]
+            ]
+        },
+        {
+            "id": 64,
+            "naam": "Man met kruiwagen",
+            "omschrijving": "Een man in een blauw shirt die een houten karretje met speelgoed trekt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    78.2,
+                    65.8
+                ],
+                [
+                    80.8,
+                    65.8
+                ],
+                [
+                    81.2,
+                    66.8
+                ],
+                [
+                    81.2,
+                    73.2
+                ],
+                [
+                    80.8,
+                    74.2
+                ],
+                [
+                    78.2,
+                    74.2
+                ],
+                [
+                    77.8,
+                    73.2
+                ],
+                [
+                    77.8,
+                    66.8
+                ]
+            ]
+        },
+        {
+            "id": 65,
+            "naam": "Houten bolderkar met speelgoed",
+            "omschrijving": "Een houten trekkarretje vol speelgoed en knuffels in de tuin.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    71.8,
+                    68.8
+                ],
+                [
+                    75.2,
+                    68.8
+                ],
+                [
+                    75.7,
+                    69.3
+                ],
+                [
+                    75.7,
+                    72.7
+                ],
+                [
+                    75.2,
+                    73.2
+                ],
+                [
+                    71.8,
+                    73.2
+                ],
+                [
+                    71.3,
+                    72.7
+                ],
+                [
+                    71.3,
+                    69.3
+                ]
+            ]
+        },
+        {
+            "id": 66,
+            "naam": "Gele eend in teil",
+            "omschrijving": "Een plastic gele badeend die in een grote zinkteil met water drijft.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    68.5,
+                    74.3
+                ],
+                [
+                    71.1,
+                    74.3
+                ],
+                [
+                    71.5,
+                    74.7
+                ],
+                [
+                    71.5,
+                    77.3
+                ],
+                [
+                    71.1,
+                    77.7
+                ],
+                [
+                    68.5,
+                    77.7
+                ],
+                [
+                    68.1,
+                    77.3
+                ],
+                [
+                    68.1,
+                    74.7
+                ]
+            ]
+        },
+        {
+            "id": 67,
+            "naam": "Schommel in de tuin",
+            "omschrijving": "Een kindje dat heen en weer schommelt op een schommel rechts in de tuin.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    82.8,
+                    52.3
+                ],
+                [
+                    86.2,
+                    52.3
+                ],
+                [
+                    86.7,
+                    53.2
+                ],
+                [
+                    86.7,
+                    58.8
+                ],
+                [
+                    86.2,
+                    59.7
+                ],
+                [
+                    82.8,
+                    59.7
+                ],
+                [
+                    82.3,
+                    58.8
+                ],
+                [
+                    82.3,
+                    53.2
+                ]
+            ]
+        },
+        {
+            "id": 68,
+            "naam": "Boomhut rechts",
+            "omschrijving": "Een houten boomhut bovenin de grote appelboom rechts in de tuin.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    95.3,
+                    52.5
+                ],
+                [
+                    98.7,
+                    52.5
+                ],
+                [
+                    99.2,
+                    53.2
+                ],
+                [
+                    99.2,
+                    57.8
+                ],
+                [
+                    98.7,
+                    58.5
+                ],
+                [
+                    95.3,
+                    58.5
+                ],
+                [
+                    94.8,
+                    57.8
+                ],
+                [
+                    94.8,
+                    53.2
+                ]
+            ]
+        },
+        {
+            "id": 69,
+            "naam": "Jongen in de boomhut",
+            "omschrijving": "Een jongetje met een pet die vanuit de boomhut naar beneden kijkt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    95.6,
+                    52.8
+                ],
+                [
+                    98.0,
+                    52.8
+                ],
+                [
+                    98.3,
+                    53.3
+                ],
+                [
+                    98.3,
+                    56.7
+                ],
+                [
+                    98.0,
+                    57.2
+                ],
+                [
+                    95.6,
+                    57.2
+                ],
+                [
+                    95.3,
+                    56.7
+                ],
+                [
+                    95.3,
+                    53.3
+                ]
+            ]
+        },
+        {
+            "id": 70,
+            "naam": "Ladder naar de boomhut",
+            "omschrijving": "De houten ladder die tegen de stam van de boom rechts staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    95.6,
+                    60.8
+                ],
+                [
+                    97.4,
+                    60.8
+                ],
+                [
+                    97.7,
+                    61.8
+                ],
+                [
+                    97.7,
+                    68.2
+                ],
+                [
+                    97.4,
+                    69.2
+                ],
+                [
+                    95.6,
+                    69.2
+                ],
+                [
+                    95.3,
+                    68.2
+                ],
+                [
+                    95.3,
+                    61.8
+                ]
+            ]
+        },
+        {
+            "id": 71,
+            "naam": "Vrouw aan tuintafel",
+            "omschrijving": "Een vrouw die aan een ronde gele tuintafel zit te eten of drinken.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    91.5,
+                    63.8
+                ],
+                [
+                    94.5,
+                    63.8
+                ],
+                [
+                    95.0,
+                    64.7
+                ],
+                [
+                    95.0,
+                    70.3
+                ],
+                [
+                    94.5,
+                    71.2
+                ],
+                [
+                    91.5,
+                    71.2
+                ],
+                [
+                    91.0,
+                    70.3
+                ],
+                [
+                    91.0,
+                    64.7
+                ]
+            ]
+        },
+        {
+            "id": 72,
+            "naam": "Gele tuintafel rechts",
+            "omschrijving": "De kleine ronde gele eettafel in de tuin onder de boom.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    88.5,
+                    67.0
+                ],
+                [
+                    91.1,
+                    67.0
+                ],
+                [
+                    91.5,
+                    67.5
+                ],
+                [
+                    91.5,
+                    70.5
+                ],
+                [
+                    91.1,
+                    71.0
+                ],
+                [
+                    88.5,
+                    71.0
+                ],
+                [
+                    88.1,
+                    70.5
+                ],
+                [
+                    88.1,
+                    67.5
+                ]
+            ]
+        },
+        {
+            "id": 73,
+            "naam": "Kindje in stoel buiten",
+            "omschrijving": "Een kindje in een roze trui dat naast de tuintafel zit.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    84.8,
+                    65.3
+                ],
+                [
+                    87.2,
+                    65.3
+                ],
+                [
+                    87.5,
+                    65.9
+                ],
+                [
+                    87.5,
+                    70.1
+                ],
+                [
+                    87.2,
+                    70.7
+                ],
+                [
+                    84.8,
+                    70.7
+                ],
+                [
+                    84.5,
+                    70.1
+                ],
+                [
+                    84.5,
+                    65.9
+                ]
+            ]
+        },
+        {
+            "id": 74,
+            "naam": "Zandbak met speelgoed",
+            "omschrijving": "Een houten zandbak met schepjes en vormpjes rechtsonder in de tuin.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    89.4,
+                    73.5
+                ],
+                [
+                    93.6,
+                    73.5
+                ],
+                [
+                    94.2,
+                    74.0
+                ],
+                [
+                    94.2,
+                    77.0
+                ],
+                [
+                    93.6,
+                    77.5
+                ],
+                [
+                    89.4,
+                    77.5
+                ],
+                [
+                    88.8,
+                    77.0
+                ],
+                [
+                    88.8,
+                    74.0
+                ]
+            ]
+        },
+        {
+            "id": 75,
+            "naam": "Roze bloemen in voortuin",
+            "omschrijving": "De hoge roze stokrozen en bloemen die voor het huis groeien.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    20.8,
+                    70.8
+                ],
+                [
+                    24.2,
+                    70.8
+                ],
+                [
+                    24.7,
+                    71.7
+                ],
+                [
+                    24.7,
+                    77.3
+                ],
+                [
+                    24.2,
+                    78.2
+                ],
+                [
+                    20.8,
+                    78.2
+                ],
+                [
+                    20.3,
+                    77.3
+                ],
+                [
+                    20.3,
+                    71.7
+                ]
+            ]
+        },
+        {
+            "id": 76,
+            "naam": "Groene struik voor het huis",
+            "omschrijving": "De volle bloeiende struik midden in de voortuin.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    54.0,
+                    70.0
+                ],
+                [
+                    63.0,
+                    70.0
+                ],
+                [
+                    64.5,
+                    70.8
+                ],
+                [
+                    64.5,
+                    76.2
+                ],
+                [
+                    63.0,
+                    77.0
+                ],
+                [
+                    54.0,
+                    77.0
+                ],
+                [
+                    52.5,
+                    76.2
+                ],
+                [
+                    52.5,
+                    70.8
+                ]
+            ]
+        },
+        {
+            "id": 77,
+            "naam": "Grote appelboom rechts",
+            "omschrijving": "De grote boom aan de rechterkant van de tuin vol groene appels.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    90.2,
+                    52.5
+                ],
+                [
+                    97.8,
+                    52.5
+                ],
+                [
+                    99.0,
+                    54.3
+                ],
+                [
+                    99.0,
+                    65.7
+                ],
+                [
+                    97.8,
+                    67.5
+                ],
+                [
+                    90.2,
+                    67.5
+                ],
+                [
+                    89.0,
+                    65.7
+                ],
+                [
+                    89.0,
+                    54.3
+                ]
+            ]
+        },
+        {
+            "id": 78,
+            "naam": "Gieter in de tuin",
+            "omschrijving": "Een groene gieter die in het gras bij de bloemen staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    35.3,
+                    75.5
+                ],
+                [
+                    37.7,
+                    75.5
+                ],
+                [
+                    38.0,
+                    75.8
+                ],
+                [
+                    38.0,
+                    78.2
+                ],
+                [
+                    37.7,
+                    78.5
+                ],
+                [
+                    35.3,
+                    78.5
+                ],
+                [
+                    35.0,
+                    78.2
+                ],
+                [
+                    35.0,
+                    75.8
+                ]
+            ]
+        },
+        {
+            "id": 79,
+            "naam": "Grote kersenboom links",
+            "omschrijving": "De grote boom links vol rode kersen waar allerlei vogels in zitten.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    2.8,
+                    10.5
+                ],
+                [
+                    14.2,
+                    10.5
+                ],
+                [
+                    16.0,
+                    13.6
+                ],
+                [
+                    16.0,
+                    32.4
+                ],
+                [
+                    14.2,
+                    35.5
+                ],
+                [
+                    2.8,
+                    35.5
+                ],
+                [
+                    1.0,
+                    32.4
+                ],
+                [
+                    1.0,
+                    13.6
+                ]
+            ]
+        },
+        {
+            "id": 80,
+            "naam": "Vogel op nestkastje",
+            "omschrijving": "Een zwarte vogel die bovenop het houten nestkastje aan de boom zit.",
+            "moeilijkheidsgraad": "Moeilijk",
+            "polygoon": [
+                [
+                    2.0,
+                    50.8
+                ],
+                [
+                    3.6,
+                    50.8
+                ],
+                [
+                    3.8,
+                    51.1
+                ],
+                [
+                    3.8,
+                    52.9
+                ],
+                [
+                    3.6,
+                    53.2
+                ],
+                [
+                    2.0,
+                    53.2
+                ],
+                [
+                    1.8,
+                    52.9
+                ],
+                [
+                    1.8,
+                    51.1
+                ]
+            ]
+        },
+        {
+            "id": 81,
+            "naam": "Autorijschool auto",
+            "omschrijving": "De grijze lesauto van de autorijschool met een instructeur erin.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    76.9,
+                    87.3
+                ],
+                [
+                    84.1,
+                    87.3
+                ],
+                [
+                    85.2,
+                    88.1
+                ],
+                [
+                    85.2,
+                    92.9
+                ],
+                [
+                    84.1,
+                    93.7
+                ],
+                [
+                    76.9,
+                    93.7
+                ],
+                [
+                    75.8,
+                    92.9
+                ],
+                [
+                    75.8,
+                    88.1
+                ]
+            ]
+        },
+        {
+            "id": 82,
+            "naam": "Instructeur met pet in auto",
+            "omschrijving": "De man met pet en baard die in de lesauto van de autorijschool zit.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    76.6,
+                    80.8
+                ],
+                [
+                    79.0,
+                    80.8
+                ],
+                [
+                    79.3,
+                    81.4
+                ],
+                [
+                    79.3,
+                    85.6
+                ],
+                [
+                    79.0,
+                    86.2
+                ],
+                [
+                    76.6,
+                    86.2
+                ],
+                [
+                    76.3,
+                    85.6
+                ],
+                [
+                    76.3,
+                    81.4
+                ]
+            ]
+        },
+        {
+            "id": 83,
+            "naam": "Opa in Hawaï-hemd",
+            "omschrijving": "Een vriendelijke oudere man met een bril en een kleurrijk hemd die zwaait.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    83.9,
+                    76.3
+                ],
+                [
+                    86.5,
+                    76.3
+                ],
+                [
+                    86.9,
+                    77.3
+                ],
+                [
+                    86.9,
+                    83.7
+                ],
+                [
+                    86.5,
+                    84.7
+                ],
+                [
+                    83.9,
+                    84.7
+                ],
+                [
+                    83.5,
+                    83.7
+                ],
+                [
+                    83.5,
+                    77.3
+                ]
+            ]
+        },
+        {
+            "id": 84,
+            "naam": "Blauwe fiets tegen muur",
+            "omschrijving": "Een blauwe fiets die tegen de rode bakstenen muur geparkeerd staat.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    88.9,
+                    80.8
+                ],
+                [
+                    92.7,
+                    80.8
+                ],
+                [
+                    93.3,
+                    81.3
+                ],
+                [
+                    93.3,
+                    84.7
+                ],
+                [
+                    92.7,
+                    85.2
+                ],
+                [
+                    88.9,
+                    85.2
+                ],
+                [
+                    88.3,
+                    84.7
+                ],
+                [
+                    88.3,
+                    81.3
+                ]
+            ]
+        },
+        {
+            "id": 85,
+            "naam": "Hardlopende vrouw",
+            "omschrijving": "Een vrouw in sportkleding die over de stoep aan het hardlopen is.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    94.0,
+                    86.8
+                ],
+                [
+                    97.0,
+                    86.8
+                ],
+                [
+                    97.5,
+                    87.8
+                ],
+                [
+                    97.5,
+                    94.2
+                ],
+                [
+                    97.0,
+                    95.2
+                ],
+                [
+                    94.0,
+                    95.2
+                ],
+                [
+                    93.5,
+                    94.2
+                ],
+                [
+                    93.5,
+                    87.8
+                ]
+            ]
+        },
+        {
+            "id": 86,
+            "naam": "Hondje dat achter renner aanrent",
+            "omschrijving": "Een bruin hondje dat vrolijk achter de hardlopende vrouw aan rennen is.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    85.6,
+                    95.5
+                ],
+                [
+                    89.4,
+                    95.5
+                ],
+                [
+                    90.0,
+                    95.8
+                ],
+                [
+                    90.0,
+                    98.2
+                ],
+                [
+                    89.4,
+                    98.5
+                ],
+                [
+                    85.6,
+                    98.5
+                ],
+                [
+                    85.0,
+                    98.2
+                ],
+                [
+                    85.0,
+                    95.8
+                ]
+            ]
+        },
+        {
+            "id": 87,
+            "naam": "Gele IJskar met ballonnen",
+            "omschrijving": "De gele ijskar met het opschrift 'IJS-IJS-IJS' en een tros ballonnen.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    46.8,
+                    85.5
+                ],
+                [
+                    55.2,
+                    85.5
+                ],
+                [
+                    56.5,
+                    86.8
+                ],
+                [
+                    56.5,
+                    95.2
+                ],
+                [
+                    55.2,
+                    96.5
+                ],
+                [
+                    46.8,
+                    96.5
+                ],
+                [
+                    45.5,
+                    95.2
+                ],
+                [
+                    45.5,
+                    86.8
+                ]
+            ]
+        },
+        {
+            "id": 88,
+            "naam": "Vrouw die ijskar duwt",
+            "omschrijving": "Een vrouw in een rode jurk met feestmuts die de gele ijskar voortduwt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    40.1,
+                    88.3
+                ],
+                [
+                    43.5,
+                    88.3
+                ],
+                [
+                    44.0,
+                    89.3
+                ],
+                [
+                    44.0,
+                    95.7
+                ],
+                [
+                    43.5,
+                    96.7
+                ],
+                [
+                    40.1,
+                    96.7
+                ],
+                [
+                    39.6,
+                    95.7
+                ],
+                [
+                    39.6,
+                    89.3
+                ]
+            ]
+        },
+        {
+            "id": 89,
+            "naam": "Tros ballonnen aan ijskar",
+            "omschrijving": "De kleurrijke ballonnen (roze, geel, groen, blauw) aan de ijskar.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    51.8,
+                    81.8
+                ],
+                [
+                    55.2,
+                    81.8
+                ],
+                [
+                    55.7,
+                    82.6
+                ],
+                [
+                    55.7,
+                    87.4
+                ],
+                [
+                    55.2,
+                    88.2
+                ],
+                [
+                    51.8,
+                    88.2
+                ],
+                [
+                    51.3,
+                    87.4
+                ],
+                [
+                    51.3,
+                    82.6
+                ]
+            ]
+        },
+        {
+            "id": 90,
+            "naam": "Groene reclamezuil / kiosk",
+            "omschrijving": "De groene zuil met posters voor een rommelmarkt en ridders.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    61.7,
+                    85.0
+                ],
+                [
+                    69.3,
+                    85.0
+                ],
+                [
+                    70.5,
+                    86.3
+                ],
+                [
+                    70.5,
+                    94.7
+                ],
+                [
+                    69.3,
+                    96.0
+                ],
+                [
+                    61.7,
+                    96.0
+                ],
+                [
+                    60.5,
+                    94.7
+                ],
+                [
+                    60.5,
+                    86.3
+                ]
+            ]
+        },
+        {
+            "id": 91,
+            "naam": "Poster van een ridder",
+            "omschrijving": "De poster op de kiosk waarop een harnas van een ridder te zien is.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    66.7,
+                    89.0
+                ],
+                [
+                    69.3,
+                    89.0
+                ],
+                [
+                    69.7,
+                    89.6
+                ],
+                [
+                    69.7,
+                    93.4
+                ],
+                [
+                    69.3,
+                    94.0
+                ],
+                [
+                    66.7,
+                    94.0
+                ],
+                [
+                    66.3,
+                    93.4
+                ],
+                [
+                    66.3,
+                    89.6
+                ]
+            ]
+        },
+        {
+            "id": 92,
+            "naam": "Poster van rommelmarkt",
+            "omschrijving": "De poster op de kiosk die reclame maakt voor een rommelmarkt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    62.5,
+                    89.0
+                ],
+                [
+                    65.1,
+                    89.0
+                ],
+                [
+                    65.5,
+                    89.6
+                ],
+                [
+                    65.5,
+                    93.4
+                ],
+                [
+                    65.1,
+                    94.0
+                ],
+                [
+                    62.5,
+                    94.0
+                ],
+                [
+                    62.1,
+                    93.4
+                ],
+                [
+                    62.1,
+                    89.6
+                ]
+            ]
+        },
+        {
+            "id": 93,
+            "naam": "Rode auto met dakkoffer",
+            "omschrijving": "Een rode personenauto die op de weg rijdt met spullen op het dak.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    26.1,
+                    80.3
+                ],
+                [
+                    32.9,
+                    80.3
+                ],
+                [
+                    34.0,
+                    81.1
+                ],
+                [
+                    34.0,
+                    85.9
+                ],
+                [
+                    32.9,
+                    86.7
+                ],
+                [
+                    26.1,
+                    86.7
+                ],
+                [
+                    25.0,
+                    85.9
+                ],
+                [
+                    25.0,
+                    81.1
+                ]
+            ]
+        },
+        {
+            "id": 94,
+            "naam": "Bestuurder in rode auto",
+            "omschrijving": "De man in het blauwe shirt die de rode auto bestuurt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    28.3,
+                    79.3
+                ],
+                [
+                    30.7,
+                    79.3
+                ],
+                [
+                    31.0,
+                    79.7
+                ],
+                [
+                    31.0,
+                    82.3
+                ],
+                [
+                    30.7,
+                    82.7
+                ],
+                [
+                    28.3,
+                    82.7
+                ],
+                [
+                    28.0,
+                    82.3
+                ],
+                [
+                    28.0,
+                    79.7
+                ]
+            ]
+        },
+        {
+            "id": 95,
+            "naam": "Man op rode scooter",
+            "omschrijving": "Een man met helm die op een rode scooter of brommer over de weg rijdt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    14.7,
+                    85.8
+                ],
+                [
+                    20.3,
+                    85.8
+                ],
+                [
+                    21.2,
+                    86.7
+                ],
+                [
+                    21.2,
+                    92.3
+                ],
+                [
+                    20.3,
+                    93.2
+                ],
+                [
+                    14.7,
+                    93.2
+                ],
+                [
+                    13.8,
+                    92.3
+                ],
+                [
+                    13.8,
+                    86.7
+                ]
+            ]
+        },
+        {
+            "id": 96,
+            "naam": "Egel op de stoep",
+            "omschrijving": "Een klein egeltje dat onderaan de stoep bij de weg scharrelt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    32.8,
+                    92.3
+                ],
+                [
+                    35.2,
+                    92.3
+                ],
+                [
+                    35.5,
+                    92.6
+                ],
+                [
+                    35.5,
+                    95.0
+                ],
+                [
+                    35.2,
+                    95.3
+                ],
+                [
+                    32.8,
+                    95.3
+                ],
+                [
+                    32.5,
+                    95.0
+                ],
+                [
+                    32.5,
+                    92.6
+                ]
+            ]
+        },
+        {
+            "id": 97,
+            "naam": "Vogel met kers op stoep",
+            "omschrijving": "Een zwarte vogel die op de stoep van een afgevallen rode kers snoept.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    28.2,
+                    96.0
+                ],
+                [
+                    30.8,
+                    96.0
+                ],
+                [
+                    31.2,
+                    96.3
+                ],
+                [
+                    31.2,
+                    98.1
+                ],
+                [
+                    30.8,
+                    98.4
+                ],
+                [
+                    28.2,
+                    98.4
+                ],
+                [
+                    27.8,
+                    98.1
+                ],
+                [
+                    27.8,
+                    96.3
+                ]
+            ]
+        },
+        {
+            "id": 98,
+            "naam": "Rode tractor in het weiland",
+            "omschrijving": "Een rode tractor met groene aanhanger die in de wei achter het huis rijdt.",
+            "moeilijkheidsgraad": "Gemiddeld",
+            "polygoon": [
+                [
+                    87.9,
+                    23.3
+                ],
+                [
+                    90.5,
+                    23.3
+                ],
+                [
+                    90.9,
+                    23.7
+                ],
+                [
+                    90.9,
+                    26.3
+                ],
+                [
+                    90.5,
+                    26.7
+                ],
+                [
+                    87.9,
+                    26.7
+                ],
+                [
+                    87.5,
+                    26.3
+                ],
+                [
+                    87.5,
+                    23.7
+                ]
+            ]
+        },
+        {
+            "id": 99,
+            "naam": "Koeien in de wei",
+            "omschrijving": "Bruin-witte koeien die rustig in het groene weiland grazen.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    87.1,
+                    30.0
+                ],
+                [
+                    91.9,
+                    30.0
+                ],
+                [
+                    92.7,
+                    30.8
+                ],
+                [
+                    92.7,
+                    36.2
+                ],
+                [
+                    91.9,
+                    37.0
+                ],
+                [
+                    87.1,
+                    37.0
+                ],
+                [
+                    86.3,
+                    36.2
+                ],
+                [
+                    86.3,
+                    30.8
+                ]
+            ]
+        },
+        {
+            "id": 100,
+            "naam": "Brandweerauto op de heuvel",
+            "omschrijving": "Een rode brandweerwagen met zwaailicht die bovenop de heuvel rijdt.",
+            "moeilijkheidsgraad": "Makkelijk",
+            "polygoon": [
+                [
+                    86.5,
+                    13.5
+                ],
+                [
+                    89.1,
+                    13.5
+                ],
+                [
+                    89.5,
+                    13.8
+                ],
+                [
+                    89.5,
+                    16.2
+                ],
+                [
+                    89.1,
+                    16.5
+                ],
+                [
+                    86.5,
+                    16.5
+                ],
+                [
+                    86.1,
+                    16.2
+                ],
+                [
+                    86.1,
+                    13.8
+                ]
+            ]
+        }
+    ]
+}

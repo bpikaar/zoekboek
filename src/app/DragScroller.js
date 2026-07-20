@@ -1,24 +1,33 @@
+const CLICK_DISTANCE_THRESHOLD_PX = 6;
+
 /**
  * Lets the user grab the scene strip with the mouse (or touch/pen, via
  * Pointer Events) and drag it horizontally, or pan it with a two-finger
  * trackpad swipe (via wheel events). Clamped so it never scrolls past
  * the first or last scene.
+ *
+ * A pointer press released with barely any movement is reported via
+ * `onClick` instead of being treated as a drag, so callers can react to
+ * taps on the artwork itself (e.g. hit-testing a findable object).
  */
 export class DragScroller {
   #viewport;
   #track;
   #onDragStart;
+  #onClick;
 
   #translateX = 0;
   #dragStartX = 0;
+  #dragStartY = 0;
   #dragStartTranslateX = 0;
   #isDragging = false;
   #activePointerId = null;
 
-  constructor(viewport, track, { onDragStart } = {}) {
+  constructor(viewport, track, { onDragStart, onClick } = {}) {
     this.#viewport = viewport;
     this.#track = track;
     this.#onDragStart = onDragStart;
+    this.#onClick = onClick;
 
     this.#viewport.addEventListener('pointerdown', this.#handlePointerDown);
     this.#viewport.addEventListener('pointermove', this.#handlePointerMove);
@@ -34,6 +43,7 @@ export class DragScroller {
     this.#viewport.setPointerCapture(event.pointerId);
 
     this.#dragStartX = event.clientX;
+    this.#dragStartY = event.clientY;
     this.#dragStartTranslateX = this.#translateX;
 
     this.#viewport.classList.add('is-dragging');
@@ -57,6 +67,14 @@ export class DragScroller {
     if (this.#activePointerId !== null) {
       this.#viewport.releasePointerCapture(this.#activePointerId);
       this.#activePointerId = null;
+    }
+
+    const distance = Math.hypot(
+      event.clientX - this.#dragStartX,
+      event.clientY - this.#dragStartY,
+    );
+    if (distance <= CLICK_DISTANCE_THRESHOLD_PX) {
+      this.#onClick?.(event);
     }
   };
 

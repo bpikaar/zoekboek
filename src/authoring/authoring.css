@@ -1,0 +1,137 @@
+.authoring-layout {
+  display: flex;
+  height: 100%;
+}
+
+.authoring-gallery {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}
+
+.authoring-panel {
+  width: 22rem;
+  flex: 0 0 auto;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 1.25rem;
+  background: #14171f;
+  color: #e6e8ee;
+  font: 14px/1.5 system-ui, sans-serif;
+  border-left: 1px solid rgb(255 255 255 / 10%);
+}
+
+.authoring-panel h1 {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.authoring-panel h2 {
+  font-size: 0.95rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.authoring-panel__help {
+  color: #9aa1b2;
+  margin: 0 0 1rem;
+}
+
+.authoring-panel__status {
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  background: rgb(56 189 248 / 12%);
+  color: #7dd3fc;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.authoring-panel__field {
+  margin-bottom: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.authoring-panel__field label {
+  font-size: 0.8rem;
+  color: #9aa1b2;
+}
+
+.authoring-panel__field input,
+.authoring-panel__field textarea {
+  background: #1c2029;
+  border: 1px solid rgb(255 255 255 / 12%);
+  border-radius: 0.4rem;
+  color: inherit;
+  padding: 0.5rem;
+  font: inherit;
+  resize: vertical;
+}
+
+.authoring-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.authoring-panel__actions button {
+  flex: 1 1 auto;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgb(255 255 255 / 15%);
+  background: #232733;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+
+.authoring-panel__save {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.authoring-panel__save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.authoring-panel__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.authoring-panel__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  background: #1c2029;
+}
+
+.authoring-panel__list-item button {
+  border: none;
+  background: none;
+  color: #f87171;
+  cursor: pointer;
+  font: inherit;
+}
+
+.authoring-panel__export {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgb(255 255 255 / 15%);
+  background: #16a34a;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+}

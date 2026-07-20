@@ -1,3 +1,7 @@
+import { PolygonOverlay } from '../findables/PolygonOverlay.js';
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
 export class SceneStrip {
   #slots = [];
 
@@ -12,10 +16,21 @@ export class SceneStrip {
       image.alt = `Zoekplaat ${index + 1}`;
       image.draggable = false;
 
+      const hitLayer = document.createElementNS(SVG_NS, 'svg');
+      hitLayer.setAttribute('viewBox', '0 0 100 100');
+      hitLayer.setAttribute('preserveAspectRatio', 'none');
+      hitLayer.classList.add('strip__hitlayer');
+
       slot.appendChild(image);
+      slot.appendChild(hitLayer);
       trackElement.appendChild(slot);
 
-      this.#slots.push({ slot, image, loaded: false });
+      this.#slots.push({
+        slot,
+        image,
+        loaded: false,
+        overlay: new PolygonOverlay(hitLayer),
+      });
     }
   }
 
@@ -30,5 +45,9 @@ export class SceneStrip {
     entry.image.src = src;
     entry.loaded = true;
     entry.slot.classList.add('strip__slot--loaded');
+  }
+
+  getOverlay(index) {
+    return this.#slots[index]?.overlay ?? null;
   }
 }
