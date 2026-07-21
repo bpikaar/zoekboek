@@ -8,8 +8,9 @@
  * flashing briefly.
  *
  * The first keyword is what's actually being searched for; the rest
- * are just extra clues if that's not enough. A 🔍 badge plus a divider
- * sets that first chip apart from the numbered 💡 hint chips after it.
+ * are just extra clues if that's not enough. A "Zoek:" prefix plus a
+ * 🔍 badge marks that first chip; a "Hint" divider sets it apart from
+ * the numbered hint chips after it.
  */
 export class HintStepper {
   #container;
@@ -33,7 +34,7 @@ export class HintStepper {
       if (index === 1) {
         const divider = document.createElement('div');
         divider.className = 'hint-stepper__divider';
-        divider.textContent = '💡';
+        divider.textContent = 'Hint';
         divider.title = 'Extra hints';
         this.#element.appendChild(divider);
       } else if (index > 1) {
@@ -44,6 +45,9 @@ export class HintStepper {
 
       const roleClass = isTarget ? 'hint-stepper__chip--target' : 'hint-stepper__chip--hint';
       const badge = isTarget ? '🔍' : String(index); // hint chips are numbered 1, 2, 3... on their own
+      // Kept out of .hint-stepper__word so its lowercase styling (for the
+      // keyword itself) doesn't also lowercase this "Zoek:" label.
+      const label = isTarget ? '<span class="hint-stepper__label">Zoek:</span>' : '';
 
       const chip = document.createElement('div');
       chip.className = `hint-stepper__chip hint-stepper__chip--pending ${roleClass}`;
@@ -55,6 +59,7 @@ export class HintStepper {
           </svg>
           <span class="hint-stepper__index">${badge}</span>
         </span>
+        ${label}
         <span class="hint-stepper__word">?</span>
       `;
       this.#element.appendChild(chip);

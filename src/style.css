@@ -340,6 +340,10 @@ body {
   text-transform: lowercase;
 }
 
+.hint-stepper__label {
+  opacity: 0.75;
+}
+
 .hint-stepper__chip--revealed {
   background: rgb(255 255 255 / 14%);
   opacity: 0.85;
@@ -381,9 +385,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0.1rem;
-  font-size: 0.85rem;
-  opacity: 0.85;
+  padding: 0 0.2rem;
+  color: rgb(255 255 255 / 65%);
+  font: 700 0.7rem system-ui, sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .hint-stepper__chip--target {
