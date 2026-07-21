@@ -1,6 +1,7 @@
 import { HitTester } from '../findables/HitTester.js';
 import { SpeechPrompter } from './SpeechPrompter.js';
 import { FeedbackBadge } from './FeedbackBadge.js';
+import { HintStepper } from './HintStepper.js';
 
 const CELEBRATION_MS = 1200;
 const HINT_INTERVAL_MS = 3000;
@@ -20,12 +21,14 @@ const TAP_TOLERANCE_PX = 10;
  * spoken*, the next keyword is added as an extra hint, then the next,
  * and so on. If the last keyword has been spoken and still nothing is
  * found within 10 seconds, the round is skipped to a new question.
+ * A HintStepper mirrors this timing visually, chip by chip.
  */
 export class SeekGame {
   #gallery;
   #hitTester;
   #prompter;
   #feedback;
+  #hintStepper;
   #allFindables;
   #currentTarget = null;
   #started = false;
@@ -35,11 +38,20 @@ export class SeekGame {
   /** @type {object | null} identifies the in-flight hint cascade, to ignore stale continuations */
   #cascadeToken = null;
 
-  constructor(gallery, repository, { prompter, feedback } = {}) {
+  /**
+   * @param {import('../app/SceneGallery.js').SceneGallery} gallery
+   * @param {import('../findables/FindablesRepository.js').FindablesRepository} repository
+   * @param {object} [options]
+   * @param {SpeechPrompter} [options.prompter]
+   * @param {FeedbackBadge} [options.feedback]
+   * @param {HintStepper} [options.hintStepper]
+   */
+  constructor(gallery, repository, { prompter, feedback, hintStepper } = {}) {
     this.#gallery = gallery;
     this.#hitTester = new HitTester(repository);
     this.#prompter = prompter ?? new SpeechPrompter();
     this.#feedback = feedback ?? new FeedbackBadge(gallery.viewport);
+    this.#hintStepper = hintStepper ?? new HintStepper(gallery.viewport);
     this.#allFindables = repository.all.flatMap((findables, sceneIndex) =>
       findables.map((findable) => ({ sceneIndex, findable })),
     );
@@ -79,6 +91,7 @@ export class SeekGame {
       this.#locked = true;
       this.#clearHintTimer();
       this.#cascadeToken = null; // invalidate any hint step still waiting on speech to finish
+      this.#hintStepper.clear();
       overlay.flash(hit.id, 'correct');
       this.#feedback.celebrate(event.clientX, event.clientY);
       setTimeout(() => {
@@ -96,6 +109,7 @@ export class SeekGame {
     );
     const pool = others.length > 0 ? others : this.#allFindables;
     this.#currentTarget = pool[Math.floor(Math.random() * pool.length)];
+    this.#hintStepper.setKeywords(this.#currentTargetKeywords());
     this.#startHintCascade();
   }
 
@@ -146,6 +160,12 @@ export class SeekGame {
     const keywords = this.#currentTargetKeywords();
     const word = keywords[Math.min(this.#hintIndex, keywords.length - 1)];
     const prefix = this.#hintIndex === 0 ? 'Ik zie ik zie wat jij niet ziet en het is: ' : '';
+
+    const isFinal = this.#hintIndex >= keywords.length - 1;
+    this.#hintStepper.activate(this.#hintIndex, word, isFinal ? SKIP_AFTER_LAST_HINT_MS : HINT_INTERVAL_MS, {
+      isFinal,
+    });
+
     return this.#prompter.speak(`${prefix}${word}`);
   }
 
