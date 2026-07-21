@@ -374,3 +374,37 @@ body {
 .hint-stepper__connector--filled {
   background: rgb(255 255 255 / 60%);
 }
+
+/* The first keyword is the actual answer; everything past this 💡 marker
+   is just an extra clue in case that alone wasn't enough. */
+.hint-stepper__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.1rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.hint-stepper__chip--target {
+  font-weight: 700;
+}
+
+.hint-stepper__chip--target .hint-stepper__index {
+  font-size: 0.85rem;
+}
+
+.hint-stepper__chip--target.hint-stepper__chip--revealed,
+.hint-stepper__chip--target.hint-stepper__chip--active {
+  background: rgb(167 139 250 / 35%);
+}
+
+.hint-stepper__chip--target.hint-stepper__chip--revealed .hint-stepper__index,
+.hint-stepper__chip--target.hint-stepper__chip--active .hint-stepper__index {
+  background: #a78bfa;
+  color: #1e1240;
+}
+
+.hint-stepper__chip--target.hint-stepper__chip--active .hint-stepper__ring-progress {
+  stroke: #a78bfa;
+}
