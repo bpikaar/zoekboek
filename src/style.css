@@ -267,7 +267,65 @@ body {
   transition: background 0.3s ease, opacity 0.3s ease;
 }
 
+.hint-stepper__index-wrap {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.hint-stepper__ring {
+  position: absolute;
+  inset: 0;
+  transform: rotate(-90deg); /* start the countdown at 12 o'clock */
+}
+
+.hint-stepper__ring-track {
+  fill: none;
+  stroke: rgb(255 255 255 / 15%);
+  stroke-width: 2;
+}
+
+/* Starts as a full ring and drains away to nothing over --pulse-duration —
+   3s between hints, or the longer 10s wait after the last one — so the
+   remaining time reads clearly for its whole span, not just a brief flash. */
+.hint-stepper__ring-progress {
+  fill: none;
+  stroke: #38bdf8;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 69.115;
+  stroke-dashoffset: 69.115;
+}
+
+.hint-stepper__chip--active .hint-stepper__ring-progress {
+  animation: hint-stepper-countdown var(--pulse-duration, 3000ms) linear forwards;
+}
+
+.hint-stepper__chip--final .hint-stepper__ring-progress {
+  stroke: #fbbf24;
+}
+
+@keyframes hint-stepper-countdown {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 69.115;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hint-stepper__ring-progress {
+    animation: none;
+  }
+}
+
 .hint-stepper__index {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -315,37 +373,4 @@ body {
 
 .hint-stepper__connector--filled {
   background: rgb(255 255 255 / 60%);
-}
-
-/* Grows steadily for exactly the wait duration (3s, or 10s on the last
-   keyword) and fades out right as the next hint — or the skip — fires. */
-.hint-stepper__pulse-ring {
-  position: absolute;
-  inset: -4px;
-  border: 2px solid #38bdf8;
-  border-radius: inherit;
-  opacity: 0.8;
-  animation: hint-stepper-pulse var(--pulse-duration, 3000ms) linear forwards;
-}
-
-.hint-stepper__chip--final .hint-stepper__pulse-ring {
-  border-color: #fbbf24;
-}
-
-@keyframes hint-stepper-pulse {
-  0% {
-    transform: scale(1);
-    opacity: 0.8;
-  }
-  100% {
-    transform: scale(1.6);
-    opacity: 0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hint-stepper__pulse-ring {
-    animation: none;
-    opacity: 0;
-  }
 }

@@ -1,9 +1,11 @@
 /**
  * Visualizes the hint cascade as a row of numbered chips, one per
  * keyword of the current target: "?" until revealed, then the actual
- * word. The active chip pulses for exactly as long as the wait before
- * the next hint (3s), or — on the last keyword — a slower, differently
- * coloured pulse for the longer 10s wait before the round is skipped.
+ * word. The active chip's number sits inside a ring that drains all
+ * the way around over exactly the real wait — 3s before the next hint,
+ * or, on the last keyword, the longer 10s wait before the round is
+ * skipped — so the remaining time stays visible for its whole span
+ * rather than just flashing briefly.
  */
 export class HintStepper {
   #container;
@@ -31,9 +33,14 @@ export class HintStepper {
       const chip = document.createElement('div');
       chip.className = 'hint-stepper__chip hint-stepper__chip--pending';
       chip.innerHTML = `
-        <span class="hint-stepper__index">${index + 1}</span>
+        <span class="hint-stepper__index-wrap">
+          <svg class="hint-stepper__ring" viewBox="0 0 26 26">
+            <circle class="hint-stepper__ring-track" cx="13" cy="13" r="11" />
+            <circle class="hint-stepper__ring-progress" cx="13" cy="13" r="11" />
+          </svg>
+          <span class="hint-stepper__index">${index + 1}</span>
+        </span>
         <span class="hint-stepper__word">?</span>
-        <span class="hint-stepper__pulse-ring"></span>
       `;
       this.#element.appendChild(chip);
       this.#chips.push({ chip, wordElement: chip.querySelector('.hint-stepper__word') });
